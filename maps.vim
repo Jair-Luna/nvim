@@ -13,6 +13,10 @@ nnoremap <Leader>sp :sp<CR>
 nnoremap <C-e> 10<C-e>
 nnoremap <C-y> 10<C-y>
 
+" split resize
+nnoremap <Leader>> 10<C-w>>
+nnoremap <Leader>< 10<C-w><
+
 " Use <c-space> to trigger completion.
 inoremap <silent><expr> <C-space> coc#refresh()
 
@@ -22,6 +26,16 @@ nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
+" Flutter
+nnoremap <leader>fa :FlutterRun<cr>
+nnoremap <leader>fq :FlutterQuit<cr>
+nnoremap <leader>fr :FlutterHotReload<cr>
+nnoremap <leader>fR :FlutterHotRestart<cr>
+nnoremap <leader>fs :FlutterSplit<cr>
+nnoremap <leader>fe :FlutterEmulators<cr>
+nnoremap <leader>fp :FlutterEmulatorsLaunch Pixel_3_XL<cr>
+
+" Trigger completion
 inoremap <silent><expr> <TAB>
       \ pumvisible() ? "\<C-n>" :
       \ <SID>check_back_space() ? "\<TAB>" :

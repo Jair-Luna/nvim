@@ -11,6 +11,8 @@ call plug#begin('~/.vim/plugged')
   " IDE
   Plug 'easymotion/vim-easymotion'
   Plug 'yggdroot/indentline'
+  Plug 'mhinz/vim-signify'
+  Plug 'nathanaelkane/vim-indent-guides'
 
   " Tree
   Plug 'scrooloose/nerdtree'
@@ -24,9 +26,15 @@ call plug#begin('~/.vim/plugged')
   Plug 'tpope/vim-surround'
   Plug 'yuezk/vim-js'
   Plug 'maxmellon/vim-jsx-pretty'
+  Plug 'ianks/vim-tsx'
 
   " Autocomplete
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'preservim/nerdcommenter'
-
+  Plug 'dart-lang/dart-vim-plugin'
+  Plug 'natebosch/vim-lsc'
+  Plug 'natebosch/vim-lsc-dart'
+  Plug 'thosakwe/vim-flutter'
+  Plug 'Nash0x7E2/awesome-flutter-snippets'
+ 
 call plug#end()
