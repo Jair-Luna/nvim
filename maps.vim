@@ -33,7 +33,7 @@ nnoremap <leader>fr :FlutterHotReload<cr>
 nnoremap <leader>fR :FlutterHotRestart<cr>
 nnoremap <leader>fs :FlutterSplit<cr>
 nnoremap <leader>fe :FlutterEmulators<cr>
-nnoremap <leader>fp :FlutterEmulatorsLaunch Pixel_3_XL<cr>
+nnoremap <leader>fp :FlutterEmulatorsLaunch Pixel_3<cr>
 
 " Trigger completion
 inoremap <silent><expr> <TAB>
