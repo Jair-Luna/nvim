@@ -2,7 +2,8 @@
   "coc.preferences.formatOnSaveFiletypes": [
     "css",
     "javascript",
-    "html"
+    "html",
+    "json"
   ],
   "json.format.enable": true,
   "javascript.format.enabled": true,

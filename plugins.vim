@@ -31,10 +31,5 @@ call plug#begin('~/.vim/plugged')
   " Autocomplete
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'preservim/nerdcommenter'
-  Plug 'dart-lang/dart-vim-plugin'
-  Plug 'natebosch/vim-lsc'
-  Plug 'natebosch/vim-lsc-dart'
-  Plug 'thosakwe/vim-flutter'
-  Plug 'Nash0x7E2/awesome-flutter-snippets'
  
 call plug#end()
